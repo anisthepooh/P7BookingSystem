@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <title>Cancel your booking</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    </head>
+    <body>
+        <div class="container">
+            <form action="" method="post" onsubmit="">
+                <header class="pb-3 mb-4 border-bottom">
+                    <a href="/" class="d-flex align-items-center text-dark text-decoration-none">
+                    <img src="{{url_for('static', filename = 'logo.jpg')}}" style="border:none;" height=90 width=270 class="img-thumbnail" alt="test">
+                    </a>
+                </header>
+                <div class="p-5 mb-4 rounded-3" style="background-color:#8bbda5;">
+                    <div class="container-fluid py-5">
+                        <center><h1 class="display-5 fw-bold">Enter your booking number</h1></center>
+                        <class="needs-validation" novalidate action="/BicycleType.html" method="post" name="person"></class>
+                            <center><div class="col-md-6">
+                                <div class="row">
+                                    <label for="number" class="form-label mt-2">Booking number <span class="text-muted"></span></label>
+                                    <center><input type="number" class="form-control col-md-6" name="bookingnumber"  id="bookingnumber" placeholder="e.g. 123" value="" required></center>
+                                    <div class="invalid-feedback">
+                                        Please enter a valid bookingnumber to cancel your booking.
+                                    </div>
+                                </div>
+                                <hr class="my-4">
+                                <button class="w-50 btn btn-dark btn-lg" type="submit" style="background-color: black; color: white;" >Cancel booking</button>
+                            </div></center>
+                    </div>
+                </div>
+            </form> 
+        </div>
+    </body>
+</html>

@@ -1,0 +1,84 @@
+body {
+    color: rgb(0, 0, 0);
+    background-color: #ffffff !important;
+}
+
+.container-fluid {
+    padding-top: 12px !important; 
+    padding-bottom: 12px !important;
+}
+
+.card {
+    box-shadow: 0px 4px 8px 0px #000000 
+}
+
+.datepicker {
+    background-color: rgb(255, 255, 255) !important;
+    color: rgb(0, 0, 0) !important;
+    border: none;
+    padding: 10px !important;
+    cursor: pointer 
+}
+
+.fa-calendar {
+    color: #fff;
+    font-size: 30px;
+    padding-top: 8px;
+    padding-left: 5px;
+} 
+
+.old-day,
+.day,
+.new-day {
+    width: 40px !important;
+    height: 40px !important;
+    border-radius: 0px !important
+} 
+
+.disabled {
+    color: #ff0000 !important
+} 
+
+.prev,
+.next,
+.datepicker-switch {
+    /* border-radius: 0 !important; */
+    padding: 20px 10px !important;
+    text-transform: uppercase;
+    font-size: 20px;
+    color: rgb(177, 129, 129) !important;
+    /* opacity: 0.8 */
+} 
+
+.prev:hover,
+.next:hover,
+.datepicker-switch:hover {
+    background-color: inherit !important;
+    opacity: 1
+}
+
+.knap {
+    width: 100px !important; 
+    background-color: #8bbda5;
+    color:rgb(0, 0, 0)
+}
+
+.knap:hover {
+    background-color: #000000 !important;
+    color:white
+}
+
+.knap1 {
+    background-color: #8bbda5;
+    color:rgb(0, 0, 0)
+}
+
+.knap1:hover {
+    background-color: #000000 !important;
+    color:white
+}
+
+.accordion-button:not(.collapsed)::after {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23212529'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
+    transform: rotate(-180deg);
+}
